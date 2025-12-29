@@ -1,0 +1,57 @@
+What Cloudflare Does (Main Features)
+1️⃣ CDN (Content Delivery Network)
+
+Cloudflare has hundreds of data centers worldwide (called PoPs / Edge nodes).
+
+It stores cached copies of your site so users get content from the nearest location — meaning:
+
+✔ faster loading
+✔ less latency
+✔ reduced server load
+
+Example:
+
+Your server is in USA
+
+User is in Japan
+→ Cloudflare serves from Tokyo edge node
+
+2️⃣ Security (Very important for DevOps)
+
+Cloudflare protects from:
+
+🛡 DDoS attacks
+🛡 Bots
+🛡 SQL injection
+🛡 XSS
+🛡 Layer 7 attacks
+
+It provides:
+
+✔ WAF (Web Application Firewall)
+✔ Rate limiting
+✔ IP blocking
+✔ Bot management
+
+This means malicious traffic is stopped before hitting your server.
+
+3️⃣ DNS (super fast + reliable)
+
+Cloudflare DNS is one of the fastest in the world.
+
+It resolves domains like:
+
+example.com → 192.168.x.x
+
+Fast DNS = faster browsing
+
+4️⃣ SSL / HTTPS (Free Certificates)
+
+You can enable HTTPS easily.
+
+Cloudflare:
+✔ issues SSL
+✔ manages TLS
+✔ encrypts traffic
+
+So even small sites get security.
