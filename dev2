@@ -1,0 +1,63 @@
+On AWS EC2
+
+Sign in to the AWS Console
+
+Navigate to EC2
+
+Click Launch Instance
+
+Select an AMI (Operating System Image) like Ubuntu or Windows
+
+Choose an instance type (CPU/RAM size)
+
+Configure network and storage
+
+Create or select a key pair for secure SSH/RDP access
+
+Review and launch the instance 
+Video Highlight
+
+On Azure
+
+Sign in to the Azure Portal
+
+Go to Virtual Machines
+
+Click Create VM
+
+Choose the image (Ubuntu, Windows, etc.)
+
+Set the size (CPU/RAM)
+
+Provide credentials (username/password or SSH key)
+
+Configure network settings
+
+Review and create the VM 
+Video Highlight
+
+🔧 5. Free Tiers & Cost Considerations
+
+AWS has a 1-year free tier on eligible EC2 instances, which is great for practice.
+
+Azure also offers a free trial and credits (typically around 30 days with some credits) you can use to experiment with VMs without being billed immediately.
+
+This lets learners safely create, test, and delete machines while they learn. 
+Glasp
+
+🤖 6. Manual vs. Automated Creation
+
+The video emphasizes that while manual GUI creation is useful to understand the basics, in DevOps you’ll often want to automate this process — because manually clicking through portals is slow, error-prone, and hard to repeat.
+
+Tools mentioned for automation include:
+
+AWS CLI / API
+
+Terraform (can work across AWS, Azure, and other clouds)
+
+CloudFormation (for AWS)
+
+AWS CDK (Cloud Development Kit)
+
+Automation helps turn infrastructure setup into repeatable code — a key DevOps practice. 
+Glasp
